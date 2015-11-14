@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Welcome to Jekyll!"
-date: 
-  "Sun Nov 01 2015 01:00:00 GMT+0100 (CET)": null
+date: "Sun Nov 01 2015 01:00:00 GMT+0100 (CET)"
 categories: jekyll update
 published: true
 ---
