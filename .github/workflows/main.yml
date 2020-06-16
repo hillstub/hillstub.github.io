@@ -11,5 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: hillstub/jekyll-action@2.0.2
+        with:
+          ref: '7ce4262a41477fe9122df0af7d504777252a9eed'
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
