@@ -10,10 +10,6 @@ jobs:
     runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v2
-      - name: Checkout tools repo
-        uses: actions/checkout@v2
-        with:
-          repository: hillstub/jekyll-action
-          path: jekyll-action
+      - uses: hillstub/jekyll-action@v2.0.2
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
