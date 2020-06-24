@@ -14,4 +14,4 @@ github_username:  jekyll
 markdown: kramdown
 
 plugins:
-  - image-size
+  - jekyll-image-size
